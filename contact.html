@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Adam Malik about web development, projects, or collaboration.">
+    <meta name="theme-color" content="#101412">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact | Adam Malik">
+    <meta property="og:description" content="Get in touch with Adam Malik about an idea, project, or collaboration.">
+    <title>Contact | Adam Malik</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="contact.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="index.html" aria-label="Adam Malik, home">AM<span aria-hidden="true">.</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="nav-contact" href="contact.html" aria-current="page">Contact <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container page-main">
+      <header class="page-intro">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Have a good one? <span class="accent-text">Let’s talk.</span></h1>
+        <p class="page-lead">Have a question, project idea, or just want to say hello? Send me a note.</p>
+      </header>
+
+      <section class="contact-layout" aria-label="Contact Adam">
+        <div class="contact-details">
+          <h2>Direct lines</h2>
+          <p class="contact-copy">I’m happy to hear from you. The easiest way to reach me is by email or phone.</p>
+          <address>
+            <p><span class="contact-label">EMAIL</span><a href="mailto:adamalik112005@gmail.com">adamalik112005@gmail.com</a></p>
+            <p><span class="contact-label">PHONE</span><a href="tel:9003963983">9003963983</a></p>
+          </address>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-field">
+            <label for="name">Your name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Your email <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text">
+          </div>
+          <div class="form-field">
+            <label for="message">Your message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <p class="form-hint">Required fields are marked with an asterisk.</p>
+          <button class="button button-primary" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <noscript><p class="form-hint">JavaScript is needed to prepare a message from this form. You can email me directly at <a href="mailto:adamalik112005@gmail.com">adamalik112005@gmail.com</a>.</p></noscript>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span>Adam Malik</span>. Made with care.</p>
+        <a href="mailto:adamalik112005@gmail.com">adamalik112005@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+</html>
